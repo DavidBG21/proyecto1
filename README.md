@@ -29,6 +29,7 @@ El archivo contiene una lista correspondiente a archivos que serán ignorados po
 #Ignora el archivo "debug.log"
 /debug.log
 ```
+Finalmente para verificar que el archivo no sea tomado en cuenta, se puede usar el comando "git status" y en el nombre del archivo no debe estar incluido en el área de "untracked files".
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
